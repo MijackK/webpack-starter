@@ -26,6 +26,11 @@ module.exports = {
         test: /\.(mp3|mp4)$/,
         loader: "file-loader",
       },
+      {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
     ],
   },
   plugins: [
