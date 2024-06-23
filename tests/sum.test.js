@@ -1,3 +1,4 @@
+import { expect, test } from "@jest/globals";
 import sum from "../src/sum.ts";
 
 test("adds 1 + 2 to equal 3", () => {
